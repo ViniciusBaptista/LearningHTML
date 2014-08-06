@@ -1,0 +1,13 @@
+﻿img {
+  width: 315px;
+  height: 315px;
+}
+
+p {
+  text-align: justify;
+  font-family: Arial;
+}
+
+li p {
+  color: red;
+}
