@@ -1,0 +1,16 @@
+<% include ../header %>
+<link rel="stylesheet" type="text/css" href="/stylesheets/style_home.css">
+<header>
+  <h1>Phone List</h1>
+</header>
+
+<section>
+  <form action='/entrar' method='post'>
+    <input type='text' name='usuario[nome]' placeholder='Nome'>
+    <br>
+    <input type='text' name='usuario[telefone]' placeholder='Telefone'>
+    <br>
+    <button type='submit'>Entrar</button>
+  </form>
+</section>
+<% include ../footer %> 

@@ -1,0 +1,15 @@
+<% include ../header %>
+<link rel="stylesheet" type="text/css" href="/stylesheets/style_edit.css">
+<header>
+<h2>Phone List - Editar contato</h2>
+</header>
+<section>
+  <form action='/contato/<%- contato._id %>?_method=put' method='post'>
+    <label>Nome:</label>
+    <input type='text' name='contato[nome]' value='<%- contato.nome %>'>
+    <label>Telefone:</label>
+    <input type='text' name='contato[telefone]' value='<%- contato.telefone %>'>
+    <button type='submit'>Atualizar</button>
+  </form>
+</section>
+<% include ../footer %>

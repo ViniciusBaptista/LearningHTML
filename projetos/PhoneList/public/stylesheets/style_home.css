@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 2cm;
+  text-align: center;
+}
+
+button {
+  margin-top: 0.2cm;
+}
+
+a {
+  color: #00B7FF;
+}

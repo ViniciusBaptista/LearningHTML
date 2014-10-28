@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 2cm;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 0.5cm;
+}

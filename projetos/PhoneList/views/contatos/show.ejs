@@ -1,0 +1,16 @@
+<% include ../header %>
+<link rel="stylesheet" type="text/css" href="/stylesheets/style_show.css">
+<header>
+  <h2>Phone List - Dados do contato</h2>
+</header>
+<section>
+  <form action='/contato/<%- contato._id %>?_method=delete' method='post'>
+    <p><label>Nome: </label><%- contato.nome %></p>
+    <p><label>Telefone: </label><%- contato.telefone %></p>
+    <p>
+      <button type='submit'>Excluir</button>
+      <a href='/contato/<%- contato._id %>/editar'>Editar</a>
+    </p>
+  </form>
+</section>
+<% include ../footer %>
